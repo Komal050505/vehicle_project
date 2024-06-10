@@ -1,0 +1,13 @@
+
+
+CREATE TABLE vehicles (
+    id INTEGER PRIMARY KEY,
+    make VARCHAR(50) ,
+    model VARCHAR(50),
+    year INTEGER ,
+    color VARCHAR(50)
+);
+
+select * from public.vehicles
+
+insert into public.vehicles(id, make, model, year, color) values(4,'low','midend',2023,'black')
